@@ -1,0 +1,1 @@
+export { useDetectClick } from "./useDetectClick";

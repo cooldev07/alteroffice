@@ -1,0 +1,28 @@
+.app-main {
+  display: grid;
+  grid-template-columns: 20% 55% 25%;
+  gap: 2rem;
+  max-width: 81rem;
+  justify-content: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .app-main {
+    grid-template-columns: 10% 65% 25%;
+    margin: auto 2%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .app-main {
+    grid-template-columns: 12% 78%;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  .app-main {
+    display: block;
+    margin: 0 10px 2.5rem;
+  }
+}
